@@ -14,7 +14,7 @@ const Home = () => {
                             <img src={image} className="hero" alt="hero" />
                             <div className="content">
                                 <h3 className="title">WebSuku</h3>
-                                <p className="subtitle">Website Wisata Kuliner</p>
+                                <p className="subtitle">Website Sumbawa Kuliner</p>
                                 <Link to={`/products`} className='shopNow'>
                                  <button className="btn btn-shop" >
                                     Shop Now
