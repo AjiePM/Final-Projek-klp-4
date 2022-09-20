@@ -9,7 +9,7 @@ import Checkout from './components/Checkout/Checkout';
 import Login from './components/Login/Login';
 import Register from './components/Register/Register';
 import Service from './components/Service/Service'
-import Contact from './components/Contact';
+import About from './components/About/About';
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
         <Route path="/products" element={<Products />}/>
         <Route path="/products/:id" element={<Product/>}/>
         <Route path="/service" element={<Service />}/>
-        <Route path="/contact" element={<Contact />}/>
+        <Route path="/about" element={<About />}/>
         <Route path="/login" element={<Login />}/>
         <Route path="/register" element={<Register />}/>
         <Route path="/cart" element={<Cart/>}/>
