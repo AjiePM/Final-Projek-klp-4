@@ -1,15 +1,15 @@
-import Header from './components/Home/Header';
-import Home from './components/Home/Home';
-import Products from './components/Products/Products';
-import Footer from './components/Home/Footer';
+import Header from './Components/Home/Header';
+import Home from './Components/Home/Home';
+import Products from './Components/Products/Products';
+import Footer from './Components/Home/Footer';
 import {Routes, Route} from 'react-router-dom';
-import Product from './components/Products/Product';
-import Cart from './components/Cart/Cart';
-import Checkout from './components/Checkout/Checkout';
-import Login from './components/Login/Login';
-import Register from './components/Register/Register';
-import Service from './components/Service/Service'
-import About from './components/About/About';
+import Product from './Components/Products/Product';
+import Cart from './Components/Cart/Cart';
+import Checkout from './Components/Checkout/Checkout';
+import Login from './Components/Login/login';
+import Register from './Components/Register/Register';
+import Service from './Components/Service/Service'
+import About from './Components/About/About';
 
 function App() {
   return (
