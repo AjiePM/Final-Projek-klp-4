@@ -4,7 +4,7 @@ import React from 'react'
 import { useEffect } from 'react';
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { useParams } from 'react-router'
+import { useParams } from 'react-router-dom'
 import { addCart } from '../../redux/action';
 import "./ProductStyle.css"
 
