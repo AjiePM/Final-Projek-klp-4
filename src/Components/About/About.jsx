@@ -9,12 +9,13 @@ const About = () => {
             <h1 className="headings"></h1>
             <main>
                 <article>
+                 <div className='about' > 
+                    <h2>About</h2> 
+                    <br/>
                     <figure>
                         <img src={hero} alt="semantic versioning" width={400} />
                     </figure>
                     <div>
-                        <br />
-                        <h2>About</h2>
                         <br />
                         <br />
 
@@ -31,7 +32,7 @@ const About = () => {
                             Maka dari itu dengan adanya Website Sumbawa Kuliner  (Web SuKu) memudahkan wisatawan untuk mengetahui jenis-jenis
                             kuliner yang ada di sumbawa serta dapat melakukan pemesanan secara online </p>
                     </div>
-
+                    </div>
                 </article>
             </main>
         </section>

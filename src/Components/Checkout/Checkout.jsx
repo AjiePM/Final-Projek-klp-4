@@ -102,10 +102,9 @@ const Checkout = () => {
               </div> <br />
 
               <Link to={`/`} className='contained-btn'>
-              <button variant='contained' onClick={myfun}>
+              <button className ='contained' onClick={myfun}>
                 Continue to checkout
-              </button>
-              </Link>
+              </button></Link>
             </div>
           </div>
         </div>

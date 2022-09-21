@@ -1,29 +1,52 @@
 .blog h2 {
-  padding-left: 125vh;
-  position: absolute;
+  position: flex;
+  text-align: center;
+  margin-bottom: 20px;
   padding-right: 5vh;
-  top: 300px;
+  top: 250px;
   font-size: 40px;
-  color: rgb(255, 255, 255) ;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+  margin: 20px auto;
+  overflow: hidden;
+  border-radius: 10px;
 }
 
 .blog p {
-  padding-left: 80vh;
-  padding-right: 5vh;
-  position: absolute;
-  top: 350px;
-  font-size: 15px;
-  color: rgb(48, 47, 47) ;
+  padding: 30px;
+  flex-basis: 50%;
+  height: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
 }
+
 .blog img{
-  
-  padding-left: 10vh;
-  padding-top: 20vh;
+  flex-basis: 50%;
+	height: 250px;
+	overflow: hidden;
+	position: relative;
+}
+
+#blog.img:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 90%;
+	width: 90%;
+	opacity: 0.7;
 }
  
 @media screen and (max-width: 768px) {
   .blog img.h2.blog p{
-    flex-direction: column;
-    
+    flex-direction: column;  
   }
 }
