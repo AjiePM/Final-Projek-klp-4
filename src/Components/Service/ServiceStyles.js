@@ -70,10 +70,13 @@ export const ServicesH1 = styled.h1`
   }
 `;
 export const ServicesH2 = styled.h2`
-  font-size: 1rem;
+  color: #fff;
+  weight: bolder;
+  font-size: 1.3rem;
   margin-bottom: 10px;
 `;
 export const ServicesP = styled.p`
+  color: #fff;
   font-size: 1rem;
   text-align: center;
 `;
