@@ -89,8 +89,7 @@ const Checkout = () => {
               </div>
             </div>
 
-            <div className="formGroup"></div>
-            <Link to="/order" className='checkout'>Checkout</Link>
+            
           </div>
           <div className="col">
             <div className="totalCart">
@@ -102,9 +101,11 @@ const Checkout = () => {
                 <p>Total </p> <span> Rp {total}</span>
               </div> <br />
 
+              <Link to={`/`} className='contained-btn'>
               <button variant='contained' onClick={myfun}>
                 Continue to checkout
               </button>
+              </Link>
             </div>
           </div>
         </div>
